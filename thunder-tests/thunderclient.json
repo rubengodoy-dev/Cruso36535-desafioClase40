@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "a3028c71-0562-4c6f-be3c-fc052375be06",
+    "colId": "7a2b4e17-407d-4df4-aa4d-f9c881ca3ed4",
+    "containerId": "",
+    "name": "getAll",
+    "url": "http://localhost:3000/users",
+    "method": "GET",
+    "sortNum": 10000,
+    "created": "2022-08-23T21:25:30.642Z",
+    "modified": "2022-08-23T21:25:42.786Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "d92a171a-55d3-4c7f-bd80-716775bdcdce",
+    "colId": "7a2b4e17-407d-4df4-aa4d-f9c881ca3ed4",
+    "containerId": "",
+    "name": "save",
+    "url": "http://localhost:3000/users",
+    "method": "POST",
+    "sortNum": 20000,
+    "created": "2022-08-23T21:26:32.002Z",
+    "modified": "2022-08-23T21:32:43.234Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"first_name\": \"rubens\",\n  \"last_name\": \"godosy\",\n  \"enterprise\": \"teco\",\n  \"job\": \"dev\"\n}",
+      "form": []
+    },
+    "tests": []
+  }
+]
